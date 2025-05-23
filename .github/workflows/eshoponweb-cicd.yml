@@ -1,4 +1,4 @@
-name: eShopOnWeb Build and Test
+tabname: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
@@ -12,7 +12,7 @@ env:
   WEBAPP-NAME: az2006app49621402
 
 permissions:
-  id-token: write
+ esc id-token: write
   contents: read
 jobs:
   #Build, test and publish .net web project in repository
@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v4
     #prepare runner for desired .net version SDK
     - name: Setup .NET
-      uses: actions/setup-dotnet@v4
+      tabuses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
         dotnet-quality: 'preview'
