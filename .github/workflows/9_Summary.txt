@@ -1,0 +1,9 @@
+﻿2025-03-31T18:02:40.1056688Z ##[group]Run echo '### Successful WEB deployment 🚀🚀🚀' >> $GITHUB_STEP_SUMMARY
+2025-03-31T18:02:40.1057268Z [36;1mecho '### Successful WEB deployment 🚀🚀🚀' >> $GITHUB_STEP_SUMMARY[0m
+2025-03-31T18:02:40.1057693Z [36;1mecho 'Well done!' >> $GITHUB_STEP_SUMMARY[0m
+2025-03-31T18:02:40.1058087Z [36;1mecho 'Link to test environment:' >> $GITHUB_STEP_SUMMARY[0m
+2025-03-31T18:02:40.1058576Z [36;1mecho 'https://4e22d42c.tonkeeper-web.pages.dev' >> $GITHUB_STEP_SUMMARY[0m
+2025-03-31T18:02:40.1105286Z shell: /usr/bin/bash -e {0}
+2025-03-31T18:02:40.1105557Z env:
+2025-03-31T18:02:40.1105761Z   node-version: 20.11.1
+2025-03-31T18:02:40.1106001Z ##[endgroup]

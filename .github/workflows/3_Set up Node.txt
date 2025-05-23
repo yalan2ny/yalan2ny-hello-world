@@ -1,0 +1,19 @@
+﻿2025-03-31T17:59:57.0913328Z ##[group]Run actions/setup-node@v4
+2025-03-31T17:59:57.0913687Z with:
+2025-03-31T17:59:57.0913896Z   node-version: 20.11.1
+2025-03-31T17:59:57.0914285Z   always-auth: false
+2025-03-31T17:59:57.0914516Z   check-latest: false
+2025-03-31T17:59:57.0914866Z   token: ***
+2025-03-31T17:59:57.0915066Z env:
+2025-03-31T17:59:57.0915260Z   node-version: 20.11.1
+2025-03-31T17:59:57.0915484Z ##[endgroup]
+2025-03-31T17:59:57.2623763Z Attempting to download 20.11.1...
+2025-03-31T17:59:58.1260260Z Acquiring 20.11.1 - x64 from https://github.com/actions/node-versions/releases/download/20.11.1-7910924545/node-20.11.1-linux-x64.tar.gz
+2025-03-31T17:59:58.9060503Z Extracting ...
+2025-03-31T17:59:58.9161941Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/cd2dc8ba-db5d-4062-8e25-4cfb6889c94b -f /home/runner/work/_temp/ce103789-e724-4a0b-afc2-30528015782f
+2025-03-31T17:59:59.8866811Z Adding to the cache ...
+2025-03-31T18:00:01.5807815Z ##[group]Environment details
+2025-03-31T18:00:01.8198269Z node: v20.11.1
+2025-03-31T18:00:01.8198630Z npm: 10.2.4
+2025-03-31T18:00:01.8199092Z yarn: 1.22.22
+2025-03-31T18:00:01.8199849Z ##[endgroup]

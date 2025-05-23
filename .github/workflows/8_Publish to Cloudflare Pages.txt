@@ -1,0 +1,27 @@
+﻿2025-03-31T18:02:31.8023855Z ##[group]Run cloudflare/wrangler-action@v3
+2025-03-31T18:02:31.8024640Z with:
+2025-03-31T18:02:31.8025420Z   apiToken: ***
+2025-03-31T18:02:31.8025884Z   accountId: ***
+2025-03-31T18:02:31.8026607Z   command: pages deploy apps/web/dist --project-name=tonkeeper-web --branch=feature/extension
+2025-03-31T18:02:31.8027426Z   quiet: false
+2025-03-31T18:02:31.8027783Z env:
+2025-03-31T18:02:31.8028119Z   node-version: 20.11.1
+2025-03-31T18:02:31.8028523Z ##[endgroup]
+2025-03-31T18:02:31.8982097Z ##[group]🔍 Checking for existing Wrangler installation
+2025-03-31T18:02:31.9026488Z [command]/opt/hostedtoolcache/node/20.11.1/x64/bin/yarn wrangler --version
+2025-03-31T18:02:33.0646668Z 3.20.0
+2025-03-31T18:02:33.1085068Z ✅ No wrangler version specified, using pre-installed wrangler version 3.20.0
+2025-03-31T18:02:33.1086221Z ##[endgroup]
+2025-03-31T18:02:33.1086815Z ##[endgroup]
+2025-03-31T18:02:33.1088356Z ##[group]🚀 Running Wrangler Commands
+2025-03-31T18:02:33.1107938Z [command]/opt/hostedtoolcache/node/20.11.1/x64/bin/yarn wrangler pages deploy apps/web/dist --project-name=tonkeeper-web --branch=feature/extension
+2025-03-31T18:02:35.6952887Z Uploading... (38/84)
+2025-03-31T18:02:36.6387044Z Uploading... (53/84)
+2025-03-31T18:02:36.7899239Z Uploading... (68/84)
+2025-03-31T18:02:38.2785423Z Uploading... (84/84)
+2025-03-31T18:02:38.2787836Z ✨ Success! Uploaded 46 files (38 already uploaded) (2.96 sec)
+2025-03-31T18:02:38.2788195Z 
+2025-03-31T18:02:39.9362544Z ✨ Deployment complete! Take a peek over at https://4e22d42c.tonkeeper-web.pages.dev
+2025-03-31T18:02:40.0971637Z Unable to find a WRANGLER_OUTPUT_DIR, environment and id fields will be unavailable for output. Have you updated wrangler to version >=3.81.0?
+2025-03-31T18:02:40.0972560Z ##[endgroup]
+2025-03-31T18:02:40.0973063Z 🏁 Wrangler Action completed
