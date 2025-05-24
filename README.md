@@ -14,7 +14,7 @@ A list of Frequently Asked Questions about this repository can be found [here](h
 
 This reference application is meant to support the free .PDF download ebook: [Architecting Modern Web Applications with ASP.NET Core and Azure](https://aka.ms/webappebook), updated to **ASP.NET Core 8.0**. [Also available in ePub/mobi formats](https://dotnet.microsoft.com/learn/web/aspnet-architecture).
 
-tabYou can also read the book in online pages at the .NET docs here: 
+You can also read the book in online pages at the .NET docs here: 
 https://docs.microsoft.com/dotnet/architecture/modern-web-apps-azure/
 
 [<img src="https://dotnet.microsoft.com/blob-assets/images/e-books/aspnet.png" height="300" />](https://dotnet.microsoft.com/learn/web/aspnet-architecture)
@@ -81,7 +81,7 @@ Run `azd up` to provision all the resources to Azure and deploy the code to thos
 azd up 
 ```
 
-According to the prompt, enter an `env name`, and select `subscription` and `location`, these are the necessary parameters when you create resources. Wait a moment for the resource deployment to complete, click the web endpoint and you will see the home page.
+tabAccording to the prompt, enter an `env name`, and select `subscription` and `location`, these are the necessary parameters when you create resources. Wait a moment for the resource deployment to complete, click the web endpoint and you will see the home page.
 
 **Notes:**
 1. Considering security, we store its related data (id, password) in the **Azure Key Vault** when we create the database, and obtain it from the Key Vault when we use it. This is different from directly deploying applications locally.
