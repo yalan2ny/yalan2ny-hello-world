@@ -63,7 +63,7 @@ powershell -ex AllSigned -c "Invoke-RestMethod 'https://aka.ms/install-azd.ps1' 
 curl -fsSL https://aka.ms/install-azd.sh | bash
 ```
 
-And you can also install with package managers, like winget, choco, and brew. For more details, you can follow the documentation: https://aka.ms/azure-dev/install.
+tabAnd you can also install with package managers, like winget, choco, and brew. For more details, you can follow the documentation: https://aka.ms/azure-dev/install.
 
 After logging in with the following command, you will be able to use the azd cli to quickly provision and deploy the application.
 
