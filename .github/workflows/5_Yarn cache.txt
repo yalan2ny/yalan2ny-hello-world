@@ -1,0 +1,22 @@
+﻿2025-03-31T18:00:02.1566052Z ##[group]Run actions/cache@v4
+2025-03-31T18:00:02.1566370Z with:
+2025-03-31T18:00:02.1566588Z   path: ./.yarn
+2025-03-31T18:00:02.1566989Z   key: Linux-yarn-6a65e7be7cf01693f8c4a43077e3d38d3da5ba7439596f697bcc9ca696eacba4
+2025-03-31T18:00:02.1567440Z   restore-keys: Linux-yarn-
+
+2025-03-31T18:00:02.1567712Z   enableCrossOsArchive: false
+2025-03-31T18:00:02.1567987Z   fail-on-cache-miss: false
+2025-03-31T18:00:02.1568240Z   lookup-only: false
+2025-03-31T18:00:02.1568464Z   save-always: false
+2025-03-31T18:00:02.1568673Z env:
+2025-03-31T18:00:02.1568873Z   node-version: 20.11.1
+2025-03-31T18:00:02.1569099Z ##[endgroup]
+2025-03-31T18:00:02.5534454Z Cache hit for: Linux-yarn-6a65e7be7cf01693f8c4a43077e3d38d3da5ba7439596f697bcc9ca696eacba4
+2025-03-31T18:00:03.8189349Z Received 8388608 of 366869829 (2.3%), 8.0 MBs/sec
+2025-03-31T18:00:04.8235786Z Received 134217728 of 366869829 (36.6%), 63.8 MBs/sec
+2025-03-31T18:00:05.8686695Z Received 268435456 of 366869829 (73.2%), 83.9 MBs/sec
+2025-03-31T18:00:06.6658653Z Received 366869829 of 366869829 (100.0%), 90.9 MBs/sec
+2025-03-31T18:00:06.6661669Z Cache Size: ~350 MB (366869829 B)
+2025-03-31T18:00:06.6705332Z [command]/usr/bin/tar -xf /home/runner/work/_temp/4bf1553a-de32-412d-9d3d-c6244da0b413/cache.tzst -P -C /home/runner/work/tonkeeper-web/tonkeeper-web --use-compress-program unzstd
+2025-03-31T18:00:07.2901774Z Cache restored successfully
+2025-03-31T18:00:07.3908006Z Cache restored from key: Linux-yarn-95075ae272ec1270917f237d432402d7c7438e2440dc828b96ee69eadaaad973
