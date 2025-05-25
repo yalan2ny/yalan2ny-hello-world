@@ -1,0 +1,49 @@
+﻿2025-03-31T18:00:07.4062257Z ##[group]Run borales/actions-yarn@v5
+2025-03-31T18:00:07.4067619Z with:
+2025-03-31T18:00:07.4088493Z   cmd: install
+2025-03-31T18:00:07.4088732Z env:
+2025-03-31T18:00:07.4088935Z   node-version: 20.11.1
+2025-03-31T18:00:07.4089158Z ##[endgroup]
+2025-03-31T18:00:08.0160370Z [command]/opt/hostedtoolcache/node/20.11.1/x64/bin/yarn install
+2025-03-31T18:00:08.5679004Z [93m➤[39m YN0000: Yarn detected that the current workflow is executed from a public pull request. For safety the hardened mode has been enabled.
+2025-03-31T18:00:08.5681940Z [93m➤[39m YN0000: It will prevent malicious lockfile manipulations, in exchange for a slower install time. You can opt-out if necessary; check our documentation for more details.
+2025-03-31T18:00:08.5683913Z 
+2025-03-31T18:00:08.5684507Z [94m➤[39m YN0000: · Yarn 4.3.0
+2025-03-31T18:00:08.5826667Z [94m➤[39m [90mYN0000[39m: ┌ Resolution step
+2025-03-31T18:00:08.5828995Z ##[group]Resolution step
+2025-03-31T18:00:23.9158226Z ##[endgroup]
+2025-03-31T18:00:23.9163951Z [94m➤[39m [90mYN0000[39m: └ Completed in 15s 333ms
+2025-03-31T18:00:23.9178157Z [94m➤[39m [90mYN0000[39m: ┌ Post-resolution validation
+2025-03-31T18:00:23.9182506Z ##[group]Post-resolution validation
+2025-03-31T18:00:23.9185738Z [93m➤[39m YN0060: │ [38;5;166m@ton/[39m[38;5;173mcore[39m is listed by your project with version [38;5;111m0.56.0[39m ([38;5;111mp7b757[39m), which doesn't satisfy what [38;5;166m@ton-community/[39m[38;5;173mton-ledger[39m and other dependencies request ([38;5;37m>=0.59.0[39m).
+2025-03-31T18:00:23.9189935Z [93m➤[39m YN0060: │ [38;5;173mreact[39m is listed by your project with version [38;5;111m18.2.0[39m ([38;5;111mpba9be[39m), which doesn't satisfy what [38;5;166m@storybook/[39m[38;5;173maddon-actions[39m and other dependencies request ([91mbut they have non-overlapping ranges![39m).
+2025-03-31T18:00:23.9210321Z [93m➤[39m YN0060: │ [38;5;173mreact-dom[39m is listed by your project with version [38;5;111m18.2.0[39m ([38;5;111mpeabb5[39m), which doesn't satisfy what [38;5;166m@storybook/[39m[38;5;173maddon-actions[39m and other dependencies request ([91mbut they have non-overlapping ranges![39m).
+2025-03-31T18:00:23.9213903Z [93m➤[39m YN0002: │ [38;5;166m@tonkeeper/[39m[38;5;173muikit[39m[38;5;111m@[39m[38;5;111mworkspace:packages/uikit[39m doesn't provide [38;5;173mjquery[39m ([38;5;111mp7169e[39m), requested by [38;5;173mslick-carousel[39m.
+2025-03-31T18:00:23.9218392Z [93m➤[39m YN0002: │ [38;5;166m@tonkeeper/[39m[38;5;173mweb-swap-widget[39m[38;5;111m@[39m[38;5;111mworkspace:apps/web-swap-widget[39m doesn't provide [38;5;166m@ton/[39m[38;5;173mcrypto[39m ([38;5;111mp783b2[39m), requested by [38;5;166m@ton/[39m[38;5;173mcore[39m.
+2025-03-31T18:00:23.9221831Z [93m➤[39m YN0086: │ Some peer dependencies are incorrectly met by your project; run [38;5;111myarn explain peer-requirements <hash>[39m for details, where [38;5;111m<hash>[39m is the six-letter p-prefixed code.
+2025-03-31T18:00:23.9224448Z [93m➤[39m YN0086: │ Some peer dependencies are incorrectly met by dependencies; run [38;5;111myarn explain peer-requirements[39m for details.
+2025-03-31T18:00:24.0282460Z ##[endgroup]
+2025-03-31T18:00:24.0283926Z [94m➤[39m [90mYN0000[39m: └ Completed
+2025-03-31T18:00:24.0289670Z [94m➤[39m [90mYN0000[39m: ┌ Fetch step
+2025-03-31T18:00:24.0290247Z ##[group]Fetch step
+2025-03-31T18:00:25.1365462Z [94m➤[39m YN0013: │ A package was added to the project ([38;5;160m+ 12.93 KiB[39m).
+2025-03-31T18:00:25.1366438Z ##[endgroup]
+2025-03-31T18:00:25.1367318Z [94m➤[39m [90mYN0000[39m: └ Completed in 1s 108ms
+2025-03-31T18:00:25.2364636Z [94m➤[39m [90mYN0000[39m: ┌ Link step
+2025-03-31T18:00:25.2366036Z ##[group]Link step
+2025-03-31T18:01:01.1262954Z [94m➤[39m YN0007: │ [38;5;173mcore-js[39m[38;5;111m@[39m[38;5;111mnpm:3.34.0[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1265441Z [94m➤[39m YN0007: │ [38;5;173mcore-js[39m[38;5;111m@[39m[38;5;111mnpm:2.6.12[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1272242Z [94m➤[39m YN0007: │ [38;5;173mesbuild[39m[38;5;111m@[39m[38;5;111mnpm:0.16.17[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1275550Z [94m➤[39m YN0007: │ [38;5;173mcore-js-pure[39m[38;5;111m@[39m[38;5;111mnpm:3.34.0[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1282779Z [94m➤[39m YN0007: │ [38;5;173msecp256k1[39m[38;5;111m@[39m[38;5;111mnpm:4.0.3[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1288844Z [94m➤[39m YN0007: │ [38;5;173melectron[39m[38;5;111m@[39m[38;5;111mnpm:31.0.1[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1292680Z [94m➤[39m YN0007: │ [38;5;173mkeytar[39m[38;5;111m@[39m[38;5;111mnpm:7.9.0[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1295081Z [94m➤[39m YN0007: │ [38;5;173melectron-winstaller[39m[38;5;111m@[39m[38;5;111mnpm:5.3.1[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1298535Z [94m➤[39m YN0007: │ [38;5;173mesbuild[39m[38;5;111m@[39m[38;5;111mnpm:0.21.5[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1300981Z [94m➤[39m YN0007: │ [38;5;173mesbuild[39m[38;5;111m@[39m[38;5;111mnpm:0.19.11[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1305988Z [94m➤[39m YN0007: │ [38;5;173mesbuild[39m[38;5;111m@[39m[38;5;111mnpm:0.17.19[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:01.1308023Z [94m➤[39m YN0007: │ [38;5;173mworkerd[39m[38;5;111m@[39m[38;5;111mnpm:1.20231030.0[39m must be built because it never has been before or the last one failed
+2025-03-31T18:01:05.1279227Z [94m➤[39m [90mYN0000[39m: │ [38;5;173melectron-winstaller[39m[38;5;111m@[39m[38;5;111mnpm:5.3.1[39m [32mSTDOUT[39m Selecting 7-Zip for arch x64
+2025-03-31T18:01:09.0302993Z ##[endgroup]
+2025-03-31T18:01:09.0304016Z [94m➤[39m [90mYN0000[39m: └ Completed in 43s 793ms
+2025-03-31T18:01:09.2480345Z [93m➤[39m YN0000: · Done with warnings in 1m 1s

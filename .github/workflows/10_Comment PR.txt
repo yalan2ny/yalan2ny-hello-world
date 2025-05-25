@@ -1,0 +1,15 @@
+﻿2025-03-31T18:02:40.1220072Z ##[group]Run thollander/actions-comment-pull-request@v3
+2025-03-31T18:02:40.1220429Z with:
+2025-03-31T18:02:40.1220920Z   message: ### Successful WEB deployment 🚀🚀🚀
+Well done!
+Link to test environment:
+https://4e22d42c.tonkeeper-web.pages.dev
+
+2025-03-31T18:02:40.1221474Z   comment-tag: web_deploy
+2025-03-31T18:02:40.1222017Z   github-token: ***
+2025-03-31T18:02:40.1222240Z   mode: upsert
+2025-03-31T18:02:40.1222463Z   create-if-not-exists: true
+2025-03-31T18:02:40.1222706Z env:
+2025-03-31T18:02:40.1222899Z   node-version: 20.11.1
+2025-03-31T18:02:40.1223128Z ##[endgroup]
+2025-03-31T18:02:40.5174658Z No comment has been found with asked pattern. Creating a new comment.
